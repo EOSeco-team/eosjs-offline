@@ -1,0 +1,24 @@
+{
+  "name": "eosjs-offline",
+  "version": "1.0.0",
+  "description": "sign eos transaction offline",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build_browser": "mkdir -p dist && browserify index.js > dist/eosjs-offline.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/EOSeco-team/eosjs-offline.git"
+  },
+  "keywords": [
+    "eosjs"
+  ],
+  "author": "qiushaoxi",
+  "license": "MIT",
+  "dependencies": {
+    "eosjs": "^14.1.1",
+    "eosjs-ecc": "^4.0.1",
+    "fcbuffer": "^2.2.0"
+  }
+}
