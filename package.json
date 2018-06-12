@@ -5,7 +5,7 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "build_browser": "mkdir -p dist && browserify index.js > dist/eosjs-offline.js"
+    "build_browser": "mkdir -p dist && browserify -o dist/eosjs-offline.js -s EosOffline index.js"
   },
   "repository": {
     "type": "git",
